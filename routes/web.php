@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', [FrontEndcontroller::class, 'index'])->name('index');
-Route::get('/detail/{slug', [FrontendController::class, 'details'])->name('details');
+Route::get('/details/{slug', [FrontendController::class, 'details'])->name('details');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
