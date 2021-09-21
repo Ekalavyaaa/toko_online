@@ -7,3 +7,4 @@
 - sesuaikan nama database user dan password di .env file
 - php artisan migrate, ini untuk membuat tabel ke database
 - php artisan serve
+- akses website di http://127.0.0.1:8000
