@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html class="no-js" lang="">
-  <head>
+
+<head>
     <meta charset="utf-8" />
-    <title>LuxSpace</title>
+    <title>Toko Artha</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -15,24 +16,22 @@
     <link rel="apple-touch-icon" href="{{ url('/frontend/images/content/favicon.png') }}" />
     <!-- Place favicon.ico in the root directory -->
 
-    
+
     <link rel="icon" href="{{ url('/frontend/images/content/favicon.png') }}" />
 
     <meta name="theme-color" content="#000" />
-    <link rel="icon" href="{{ url('/frontend/favicon.ico') }}">
-    <link href="{{ url('/frontend/css/app.minify.css') }}" rel="stylesheet">
-   </head>
+    <link rel="icon" href="{{ url('/frontend/favicon.ico') }}" />
+    <link href="{{ url('/frontend/css/app.minify.css') }}" rel="stylesheet" />
+</head>
 
-  <body>
+<body>
     <!-- Add your site or application content here -->
-    
+
     @include('components.frontend.navbar')
 
     @yield('content')
 
     @include('components.frontend.footer')
-    
-    
 
     <!-- START: LOAD SVG -->
     <!-- <svg width="23" height="26" class="hidden" id="icon-play">
@@ -45,16 +44,18 @@
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
-      window.ga = function () {
-        ga.q.push(arguments);
-      };
-      ga.q = [];
-      ga.l = +new Date();
-      ga("create", "UA-XXXXX-Y", "auto");
-      ga("set", "anonymizeIp", true);
-      ga("set", "transport", "beacon");
-      ga("send", "pageview");
+        window.ga = function() {
+            ga.q.push(arguments);
+        };
+        ga.q = [];
+        ga.l = +new Date();
+        ga("create", "UA-XXXXX-Y", "auto");
+        ga("set", "anonymizeIp", true);
+        ga("set", "transport", "beacon");
+        ga("send", "pageview");
     </script>
     <script src="https://www.google-analytics.com/analytics.js" async></script>
-  <script src="{{ url('frontend/js/app.js') }}"></script></body>
+    <script src="{{ url('frontend/js/app.js') }}"></script>
+</body>
+
 </html>

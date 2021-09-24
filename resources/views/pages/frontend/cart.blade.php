@@ -1,6 +1,7 @@
 @extends('layouts.frontend')
 
 @section('content')
+
   <!-- START: BREADCRUMB -->
   <section class="bg-gray-100 py-8 px-4">
       <div class="container mx-auto">
